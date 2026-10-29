@@ -3,6 +3,20 @@
 <p align="center">Tu próxima historia. · Android · Beta 0.5.0</p>
 
 
+## Acerca de Anira
+
+**Anira — Tu próxima historia**
+
+Descubre anime y organiza tus series favoritas en una interfaz oscura, moderna y fácil de usar. Explora títulos por género, año y estado, consulta nuevos capítulos y retoma tus episodios desde donde los dejaste.
+
+Disfruta de un reproductor con controles de velocidad, calidad, avance y pantalla completa. Guarda tus series como pendientes, viendo o completadas, y conserva tu biblioteca mediante respaldos.
+
+Anira también incluye avisos opcionales de nuevos capítulos y un modo de ahorro de datos que puedes activar o desactivar en Ajustes.
+
+Disponible para Android. El catálogo, los idiomas y la reproducción dependen de la disponibilidad de las fuentes externas.
+
+**Etiquetas:** `anime` · `android` · `apk` · `anime-app` · `video-player` · `anime-catalog` · `watchlist` · `spanish` · `android-tv` · `tablet`
+
 ## Capturas reales de Anira
 
 <img src="assets/screenshots/inicio.jpg" width="240" alt="Inicio"> <img src="assets/screenshots/novedades.jpg" width="240" alt="Nuevos capítulos"> <img src="assets/screenshots/explorar.jpg" width="240" alt="Explorar"> <img src="assets/screenshots/mi-lista.jpg" width="240" alt="Mi lista"> <img src="assets/screenshots/historial.jpg" width="240" alt="Historial"> 
