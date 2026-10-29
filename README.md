@@ -3,11 +3,11 @@
 <p align="center">Tu próxima historia. · Android · Beta 0.5.0</p>
 
 
-## Vista previa de la interfaz
+## Capturas reales de Anira
 
-![Vista previa conceptual de Anira en celular, tableta y Android TV](assets/vista-previa.png)
+<img src="assets/screenshots/inicio.jpg" width="240" alt="Inicio"> <img src="assets/screenshots/novedades.jpg" width="240" alt="Nuevos capítulos"> <img src="assets/screenshots/explorar.jpg" width="240" alt="Explorar"> <img src="assets/screenshots/mi-lista.jpg" width="240" alt="Mi lista"> <img src="assets/screenshots/historial.jpg" width="240" alt="Historial"> 
 
-Diseño conceptual generado con IA. No es una captura de la APK actual; las ilustraciones y títulos de ejemplo no representan el catálogo disponible.
+Capturas facilitadas por el usuario. El catálogo mostrado puede cambiar.
 
 ## Descargar
 
@@ -32,7 +32,7 @@ Android 8.0 o posterior, Android System WebView activo e Internet. Compatible po
 
 
 
-La vista previa superior muestra el diseño conceptual de la interfaz. Las capturas reales de la versión actual están pendientes de incorporación.
+Las imágenes superiores son capturas reales de la interfaz de Anira.
 
 ## Instalar o actualizar
 
