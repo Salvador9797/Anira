@@ -3,6 +3,12 @@
 <p align="center">Tu próxima historia. · Android · Beta 0.5.0</p>
 
 
+## Vista previa de la interfaz
+
+![Vista previa conceptual de Anira en celular, tableta y Android TV](assets/vista-previa.png)
+
+Diseño conceptual generado con IA. No es una captura de la APK actual; las ilustraciones y títulos de ejemplo no representan el catálogo disponible.
+
 ## Descargar
 
 [**Descargar Anira 0.5.0 para Android**](downloads/Anira-0.5.0.apk?raw=true)
@@ -26,7 +32,7 @@ Android 8.0 o posterior, Android System WebView activo e Internet. Compatible po
 
 
 
-Las capturas reales de la interfaz están pendientes de incorporación. No se incluyen ilustraciones publicitarias.
+La vista previa superior muestra el diseño conceptual de la interfaz. Las capturas reales de la versión actual están pendientes de incorporación.
 
 ## Instalar o actualizar
 
