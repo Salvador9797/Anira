@@ -1,10 +1,10 @@
 {
   "name": "Anira",
-  "version": "0.6.0",
-  "versionCode": 14,
+  "version": "0.6.1",
+  "versionCode": 15,
   "package": "app.anira.anime",
   "minAndroid": "8.0",
   "channel": "stable",
-  "apk": "downloads/Anira-0.6.0.apk",
-  "sha256": "91a6d7126a95a5a07faef49677a3e5ed3bade17dbe6f408305b7b160e736a308"
+  "apk": "downloads/Anira-0.6.1.apk",
+  "sha256": "76654f7b674ae18b8cfda4e2e8e903d422f79f4cb6fd40ed6c0d7b9730e05670"
 }

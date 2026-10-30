@@ -1,14 +1,12 @@
-# Anira 0.6.0
+# Anira 0.6.1
 
-- Controles personalizados, respuesta de pulsación y transiciones.
-- «Saltar introducción» y «Saltar créditos» sin números, únicamente en intervalos del episodio compatibles con la duración del video. Sin avance aproximado. Saltar créditos conserva posibles escenas posteriores.
-- Reproductor flotante PiP, si el dispositivo y sus permisos lo permiten.
-- Hasta seis perfiles locales; el principal conserva tus datos actuales. No son un bloqueo de seguridad.
-- Calendario con filtro de series seguidas y consulta de horarios de emisión japoneses convertidos a RD (no equivale a disponibilidad del proveedor).
-- Texto grande y reducción de animaciones; tamaño de caché y diagnóstico copiable.
-- Subtítulos externos con color, tamaño, fondo y sincronización.
-- Consulta manual de actualizaciones en Ajustes y enlace a la descarga oficial.
+- Nuevo panel siguiendo el diseño aprobado: controles blancos directamente sobre el video, sin botones rectangulares ni anillo verde.
+- Título y episodio arriba; información de reproducción, PiP y bloqueo a la derecha.
+- Progreso azul, tiempos debajo y acciones inferiores de ampliar, ajuste, anterior/siguiente y velocidad.
+- Al ampliar solicita horizontal y pantalla completa sin crear otro VideoView. Al salir o cerrar restaura la política de orientación previa; PiP conserva esa política.
+- «Saltar introducción» durante OP y «Saltar créditos» durante ED, sin cantidad numérica. Solo con intervalos disponibles y compatibles con la duración; saltar ED conserva las escenas posteriores.
+- Toca la información superior de servidor e idioma para abrir calidad, subtítulos y preferencias.
 
-Instala encima de la versión anterior para conservar los datos. Misma firma y paquete app.anira.anime, versión 0.6.0, código 14. Ahorro de datos opcional en Ajustes.
+Mismo paquete y firma. Instala encima de la versión anterior para conservar datos. Versión 0.6.1, código 15.
 
-Validación: compilación, firma v2/v3, pruebas de flujo original y minificado, perfiles, fechas y validación de intervalos. No se dispuso de dispositivo físico para comprobar PiP y la nueva distribución visual. Los tiempos AniSkip son comunitarios y pueden faltar o ser inexactos; se rechazan duraciones incompatibles. Las fuentes externas determinan calidad y disponibilidad.
+Verificación: compilación, firma v2/v3 y pruebas de flujo original y minificado; restauración de orientación y límites de OP/ED. No se dispuso de dispositivo o emulador Android para comprobar la apariencia y el giro real. Algunas políticas de multiventana o del fabricante pueden limitar la rotación. Los tiempos comunitarios y las fuentes externas pueden faltar o ser inexactos. Las capturas existentes corresponden a 0.5.0.
