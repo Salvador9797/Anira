@@ -1,4 +1,4 @@
-# Anira 0.5.0 — Beta
+# Anira 0.5.0
 
 Reproductor integrado de tamaño moderado y ampliación explícita a pantalla completa. Controles directos: pausa, ±10 segundos, posición, anterior/siguiente, velocidad, calidad, bloqueo y ajuste de imagen.
 
