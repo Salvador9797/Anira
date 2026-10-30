@@ -77,3 +77,7 @@ Este repositorio distribuye la APK y el material de presentación. El código fu
 Anira no aloja archivos de video. La disponibilidad y calidad dependen de las fuentes externas. No se garantiza la reproducción de todos los títulos, pistas, idiomas o resoluciones.
 
 Para informar un problema, indica versión de Android, modelo, versión de Anira, episodio y pasos para reproducirlo. No publiques contraseñas, tokens ni datos personales.
+
+## Licencia
+
+**Software propietario · Todos los derechos reservados.** Se permite el uso personal gratuito y compartir la APK oficial sin modificar, con sus avisos. El código fuente se mantiene privado. Consulta la [licencia completa](LICENSE) y los [avisos de terceros](THIRD_PARTY_NOTICES.md). Se respetan los permisos válidamente concedidos sobre copias anteriores.
