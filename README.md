@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="100" alt="Icono de Anira"></p>
 <h1 align="center">Anira</h1>
-<p align="center">Tu próxima historia. · Android · Beta 0.5.0</p>
+<p align="center">Tu próxima historia. · Android · Versión 0.5.0</p>
 
 
 ## Acerca de Anira
@@ -29,7 +29,7 @@ Capturas facilitadas por el usuario. El catálogo mostrado puede cambiar.
 
 Android 8.0 o posterior, Android System WebView activo e Internet. Compatible por diseño con celulares, tabletas y Android TV con WebView; reproducción y controles dependen del dispositivo.
 
-**Estado beta:** APK compilada y firmada, con pruebas de lógica completadas. No se ha validado esta versión en un dispositivo Android físico desde el entorno de desarrollo. Catálogo, portadas y enlaces de reproducción dependen de servicios externos y pueden fallar o cambiar.
+**Versión estable:** funcionamiento confirmado por el desarrollador en su dispositivo. El catálogo, las portadas y los enlaces de reproducción dependen de servicios externos y pueden cambiar o dejar de estar disponibles.
 
 ## Qué incluye
 
