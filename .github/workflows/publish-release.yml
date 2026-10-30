@@ -1,0 +1,40 @@
+name: Publish Anira Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-release.yml'
+      - 'downloads/Anira-0.5.0.apk'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch public distribution files
+        env:
+          REPO: ${{ github.repository }}
+          COMMIT: ${{ github.sha }}
+        run: |
+          git init .
+          git remote add origin "https://github.com/$REPO.git"
+          git fetch --depth=1 origin "$COMMIT"
+          git checkout --detach FETCH_HEAD
+      - name: Verify APK checksum
+        working-directory: downloads
+        run: sha256sum --check SHA256SUMS
+      - name: Publish APK release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          COMMIT: ${{ github.sha }}
+        run: |
+          if gh release view v0.5.0 >/dev/null 2>&1; then
+            echo 'Release v0.5.0 already exists; no existing assets were changed.'
+            exit 0
+          fi
+          gh release create v0.5.0 downloads/Anira-0.5.0.apk downloads/SHA256SUMS --target "$COMMIT" --title 'Anira 0.5.0 — Beta' --notes-file RELEASE-NOTES.md --prerelease --latest
