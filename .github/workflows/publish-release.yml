@@ -34,7 +34,8 @@ jobs:
           COMMIT: ${{ github.sha }}
         run: |
           if gh release view v0.5.0 >/dev/null 2>&1; then
-            echo 'Release v0.5.0 already exists; no existing assets were changed.'
+            gh release upload v0.5.0 downloads/Anira-0.5.0.apk downloads/SHA256SUMS --clobber
+            gh release edit v0.5.0 --draft=false --prerelease
             exit 0
           fi
-          gh release create v0.5.0 downloads/Anira-0.5.0.apk downloads/SHA256SUMS --target "$COMMIT" --title 'Anira 0.5.0 — Beta' --notes-file RELEASE-NOTES.md --prerelease --latest
+          gh release create v0.5.0 downloads/Anira-0.5.0.apk downloads/SHA256SUMS --target "$COMMIT" --title 'Anira 0.5.0 — Beta' --notes-file RELEASE-NOTES.md --prerelease
