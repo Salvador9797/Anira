@@ -1,11 +1,12 @@
-# Anira 0.6.2
+# Anira 0.6.3
 
-## Correcciones
+- OP/ED siempre disponible en el panel del reproductor.
+- Cada toque avanza 85 segundos desde la posición actual, con límite al final del video.
+- Etiqueta «OP/ED» sin números. Acción directa, sin diálogos ni dependencia de tiempos externos.
+- Se conserva el cambio SUB/DUB automático y el resto de funciones de 0.6.2.
 
-- Cambiar SUB/DUB sustituye automáticamente la reproducción tras haberla iniciado, sin volver a pulsar Reproducir. Captura la posición y pausa actuales y conserva pantalla completa y orientación. La fuente anterior se detiene y se descartan sus callbacks pendientes. También se puede cambiar el idioma desde las preferencias del reproductor.
-- Acceso OP/ED siempre visible al mostrar los controles. Durante un segmento compatible pasa a «Saltar introducción» o «Saltar créditos», sin segundos. Fuera de esos intervalos explica la disponibilidad de tiempos y permite reintentar si corresponde.
-- Los fallos de consulta ya no borran marcas válidas. Caché independiente por episodio, idioma y duración; resultados parciales se combinan y las consultas fallidas se reintentan hasta dos veces. Las respuestas de sesiones anteriores se descartan. Se conserva la comprobación conservadora de duración para no inventar saltos.
+Es un avance manual elegido por el usuario; no detecta dónde comienza o termina la introducción o el cierre.
 
-Mismo paquete y firma; versión 0.6.2, código 16. Instala encima de la anterior para conservar datos.
+Misma firma y paquete; versión 0.6.3, código 17. Instala encima de la anterior para conservar los datos.
 
-Verificación: compilación, firma v2/v3, flujo original y minificado, regresión SUB/DUB, identidad del episodio y conservación de intervalos. No se dispuso de Android físico para comprobar las transiciones reales. La disponibilidad y exactitud de los tiempos comunitarios y de las fuentes externas puede variar. Las capturas existentes son de 0.5.0.
+Verificación: compilación, firma v2/v3 y pruebas de flujo original y minificado, SUB/DUB y avance de 85 segundos, incluidos límite al final, duración desconocida y prevención de desbordamiento. No se dispuso de dispositivo Android físico para comprobar reproducción real.

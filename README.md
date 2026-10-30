@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="100" alt="Icono de Anira"></p>
 <h1 align="center">Anira</h1>
-<p align="center">Tu próxima historia. · Android · Versión 0.6.2</p>
+<p align="center">Tu próxima historia. · Android · Versión 0.6.3</p>
 
 
 ## Acerca de Anira
@@ -21,15 +21,15 @@ Disponible para Android. El catálogo, los idiomas y la reproducción dependen d
 
 <img src="assets/screenshots/inicio.jpg" width="240" alt="Inicio"> <img src="assets/screenshots/novedades.jpg" width="240" alt="Nuevos capítulos"> <img src="assets/screenshots/explorar.jpg" width="240" alt="Explorar"> <img src="assets/screenshots/mi-lista.jpg" width="240" alt="Mi lista"> <img src="assets/screenshots/historial.jpg" width="240" alt="Historial"> 
 
-Capturas reales de la versión 0.5.0 facilitadas por el usuario. Los nuevos controles de 0.6.2 aún no aparecen en estas capturas. El catálogo mostrado puede cambiar.
+Capturas reales de la versión 0.5.0 facilitadas por el usuario. Los nuevos controles de 0.6.3 aún no aparecen en estas capturas. El catálogo mostrado puede cambiar.
 
 ## Descargar
 
-[**Descargar Anira 0.6.2 para Android**](downloads/Anira-0.6.2.apk?raw=true)
+[**Descargar Anira 0.6.3 para Android**](downloads/Anira-0.6.3.apk?raw=true)
 
 Android 8.0 o posterior, Android System WebView activo e Internet. Compatible por diseño con celulares, tabletas y Android TV con WebView; reproducción y controles dependen del dispositivo.
 
-**Versión estable.** La actualización 0.6.2 tiene compilación, firma y pruebas de lógica verificadas. El giro y la distribución visual de los nuevos controles necesitan comprobación en dispositivo físico. El catálogo, las portadas y los enlaces de reproducción dependen de servicios externos y pueden cambiar o dejar de estar disponibles.
+**Versión estable.** La actualización 0.6.3 tiene compilación, firma y pruebas de lógica verificadas. El giro y la distribución visual de los nuevos controles necesitan comprobación en dispositivo físico. El catálogo, las portadas y los enlaces de reproducción dependen de servicios externos y pueden cambiar o dejar de estar disponibles.
 
 ## Qué incluye
 
@@ -41,7 +41,7 @@ Android 8.0 o posterior, Android System WebView activo e Internet. Compatible po
 - Al ampliar solicita horizontal y pantalla completa; al salir restaura la orientación anterior. Imagen completa sin recorte por defecto.
 - Calidad y subtítulos accesibles tocando la información superior de servidor e idioma.
 - Saltos de diez segundos, anterior/siguiente, velocidad, calidad y bloqueo de controles.
-- Acceso OP/ED siempre visible al mostrar controles; «Saltar introducción» y «Saltar créditos» aparecen dentro de intervalos compatibles. Fuera de ellos informa si los tiempos están pendientes, ausentes o si hubo un error, con opción de reintento. Sin avance aproximado.
+- Botón OP/ED disponible siempre que se muestran los controles. Cada toque avanza 85 segundos desde la posición actual, sin números en el botón ni diálogos. Es un avance manual y se limita al final del video.
 - Cambio SUB/DUB automático al seleccionar el idioma durante una reproducción, conservando posición, pausa y pantalla completa. También accesible desde las preferencias del reproductor.
 - Reproductor flotante PiP mediante botón, sujeto a soporte y permiso de Android.
 - Hasta seis perfiles locales, con listas, progreso y preferencias separados.
@@ -63,13 +63,13 @@ Las imágenes superiores son capturas reales de la interfaz de Anira.
 3. Si ya tienes Anira, instala encima de la versión anterior para conservar los datos. No es necesario desinstalarla.
 4. Si deseas, exporta antes un respaldo en Ajustes.
 
-Nombre del paquete: `app.anira.anime`. Versión: `0.6.2`, código `16`.
+Nombre del paquete: `app.anira.anime`. Versión: `0.6.3`, código `17`.
 
 La APK conserva el certificado de firma de las versiones anteriores. Su SHA-256 de archivo está en [downloads/SHA256SUMS](downloads/SHA256SUMS).
 
 ## Privacidad y permisos
 
-Anira no necesita una cuenta propia. Listas, historial, progreso y ajustes se guardan en el dispositivo, salvo cuando el usuario exporta un respaldo. La app consulta fuentes externas para catálogo, imágenes, horarios y reproducción. La consulta AniSkip envía el identificador MAL, número y duración del episodio; las actualizaciones se consultan en GitHub. Estos servicios reciben las solicitudes de red; esas consultas están sujetas a las políticas de esos servicios.
+Anira no necesita una cuenta propia. Listas, historial, progreso y ajustes se guardan en el dispositivo, salvo cuando el usuario exporta un respaldo. La app consulta fuentes externas para catálogo, imágenes, horarios y reproducción. El avance OP/ED es manual y no consulta tiempos de AniSkip; las actualizaciones se consultan en GitHub. Estos servicios reciben las solicitudes de red; esas consultas están sujetas a las políticas de esos servicios.
 
 Usa Internet y consulta el estado de conexión. El permiso de notificaciones se solicita al activar avisos. El control de volumen actúa sobre el audio multimedia. El selector de documentos del sistema se utiliza para respaldos, sin solicitar acceso general a todos los archivos.
 
