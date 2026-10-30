@@ -1,12 +1,11 @@
-# Anira 0.6.1
+# Anira 0.6.2
 
-- Nuevo panel siguiendo el diseño aprobado: controles blancos directamente sobre el video, sin botones rectangulares ni anillo verde.
-- Título y episodio arriba; información de reproducción, PiP y bloqueo a la derecha.
-- Progreso azul, tiempos debajo y acciones inferiores de ampliar, ajuste, anterior/siguiente y velocidad.
-- Al ampliar solicita horizontal y pantalla completa sin crear otro VideoView. Al salir o cerrar restaura la política de orientación previa; PiP conserva esa política.
-- «Saltar introducción» durante OP y «Saltar créditos» durante ED, sin cantidad numérica. Solo con intervalos disponibles y compatibles con la duración; saltar ED conserva las escenas posteriores.
-- Toca la información superior de servidor e idioma para abrir calidad, subtítulos y preferencias.
+## Correcciones
 
-Mismo paquete y firma. Instala encima de la versión anterior para conservar datos. Versión 0.6.1, código 15.
+- Cambiar SUB/DUB sustituye automáticamente la reproducción tras haberla iniciado, sin volver a pulsar Reproducir. Captura la posición y pausa actuales y conserva pantalla completa y orientación. La fuente anterior se detiene y se descartan sus callbacks pendientes. También se puede cambiar el idioma desde las preferencias del reproductor.
+- Acceso OP/ED siempre visible al mostrar los controles. Durante un segmento compatible pasa a «Saltar introducción» o «Saltar créditos», sin segundos. Fuera de esos intervalos explica la disponibilidad de tiempos y permite reintentar si corresponde.
+- Los fallos de consulta ya no borran marcas válidas. Caché independiente por episodio, idioma y duración; resultados parciales se combinan y las consultas fallidas se reintentan hasta dos veces. Las respuestas de sesiones anteriores se descartan. Se conserva la comprobación conservadora de duración para no inventar saltos.
 
-Verificación: compilación, firma v2/v3 y pruebas de flujo original y minificado; restauración de orientación y límites de OP/ED. No se dispuso de dispositivo o emulador Android para comprobar la apariencia y el giro real. Algunas políticas de multiventana o del fabricante pueden limitar la rotación. Los tiempos comunitarios y las fuentes externas pueden faltar o ser inexactos. Las capturas existentes corresponden a 0.5.0.
+Mismo paquete y firma; versión 0.6.2, código 16. Instala encima de la anterior para conservar datos.
+
+Verificación: compilación, firma v2/v3, flujo original y minificado, regresión SUB/DUB, identidad del episodio y conservación de intervalos. No se dispuso de Android físico para comprobar las transiciones reales. La disponibilidad y exactitud de los tiempos comunitarios y de las fuentes externas puede variar. Las capturas existentes son de 0.5.0.

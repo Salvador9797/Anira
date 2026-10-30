@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/publish-release.yml'
-      - 'downloads/Anira-0.6.1.apk'
+      - 'downloads/Anira-0.6.2.apk'
   workflow_dispatch:
 
 permissions:
@@ -33,9 +33,9 @@ jobs:
           GH_REPO: ${{ github.repository }}
           COMMIT: ${{ github.sha }}
         run: |
-          if gh release view v0.6.1 >/dev/null 2>&1; then
-            gh release upload v0.6.1 downloads/Anira-0.6.1.apk downloads/SHA256SUMS --clobber
-            gh release edit v0.6.1 --draft=false --prerelease=false --latest --title 'Anira 0.6.1' --notes-file RELEASE-NOTES.md
+          if gh release view v0.6.2 >/dev/null 2>&1; then
+            gh release upload v0.6.2 downloads/Anira-0.6.2.apk downloads/SHA256SUMS --clobber
+            gh release edit v0.6.2 --draft=false --prerelease=false --latest --title 'Anira 0.6.2' --notes-file RELEASE-NOTES.md
             exit 0
           fi
-          gh release create v0.6.1 downloads/Anira-0.6.1.apk downloads/SHA256SUMS --target "$COMMIT" --title 'Anira 0.6.1' --notes-file RELEASE-NOTES.md --latest
+          gh release create v0.6.2 downloads/Anira-0.6.2.apk downloads/SHA256SUMS --target "$COMMIT" --title 'Anira 0.6.2' --notes-file RELEASE-NOTES.md --latest
