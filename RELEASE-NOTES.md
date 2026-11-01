@@ -1,12 +1,20 @@
-# Anira 0.6.3
+# Anira 0.8.10
 
-- OP/ED siempre disponible en el panel del reproductor.
-- Cada toque avanza 85 segundos desde la posición actual, con límite al final del video.
-- Etiqueta «OP/ED» sin números. Acción directa, sin diálogos ni dependencia de tiempos externos.
-- Se conserva el cambio SUB/DUB automático y el resto de funciones de 0.6.2.
+Esta actualización reúne las mejoras de catálogo y reproducción posteriores a 0.6.3.
 
-Es un avance manual elegido por el usuario; no detecta dónde comienza o termina la introducción o el cierre.
+- Catálogo unificado de AnimeAV1 y TioAnime, con deduplicación y prioridad de AnimeAV1.
+- Selección automática de proveedores, un intento activo a la vez y recuerdo del servidor por anime e idioma.
+- Reproducción de enlaces HLS sin extensión y respaldo automático conservando el progreso.
+- Carruseles de animes recientes, recomendaciones y títulos con doblaje confirmado.
+- Temporadas y continuidad consultadas automáticamente, con historias paralelas y versiones alternativas separadas.
+- Consulta de enlaces del siguiente episodio cerca del final, sin descargar el video y respetando el ahorro de datos.
+- Resolución real cuando el reproductor la informa, acciones Quitar y Marcar visto, y diagnóstico local por etapas.
+- Correcciones para conservar la posición al regresar de segundo plano y evitar controles superpuestos o desactualizados.
+- Portadas verticales completas sin recortar personajes.
+- Siguiente dentro del reproductor inicia el próximo episodio automáticamente en horizontal y a pantalla completa.
 
-Misma firma y paquete; versión 0.6.3, código 17. Instala encima de la anterior para conservar los datos.
+Mismo paquete y certificado de firma. Versión 0.8.10, código 30. Instala encima de la anterior para conservar tus datos.
 
-Verificación: compilación, firma v2/v3 y pruebas de flujo original y minificado, SUB/DUB y avance de 85 segundos, incluidos límite al final, duración desconocida y prevención de desbordamiento. No se dispuso de dispositivo Android físico para comprobar reproducción real.
+Verificación: compilación Android, firma v2/v3, pruebas de lógica e interfaz empaquetada, prioridad de fuentes, cambio de idioma, progreso y transición al siguiente episodio. La reproducción de 0.8.7 fue confirmada por el usuario; el giro y las correcciones posteriores de segundo plano aún requieren confirmación física en Android. La disponibilidad y rapidez dependen también de las fuentes externas.
+
+Las vistas conceptuales de Netflix no están implementadas en esta APK.

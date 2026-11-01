@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="100" alt="Icono de Anira"></p>
 <h1 align="center">Anira</h1>
-<p align="center">Tu próxima historia. · Android · Versión 0.6.3</p>
+<p align="center">Tu próxima historia. · Android · Versión 0.8.10</p>
 
 
 ## Acerca de Anira
@@ -21,15 +21,19 @@ Disponible para Android. El catálogo, los idiomas y la reproducción dependen d
 
 <img src="assets/screenshots/inicio.jpg" width="240" alt="Inicio"> <img src="assets/screenshots/novedades.jpg" width="240" alt="Nuevos capítulos"> <img src="assets/screenshots/explorar.jpg" width="240" alt="Explorar"> <img src="assets/screenshots/mi-lista.jpg" width="240" alt="Mi lista"> <img src="assets/screenshots/historial.jpg" width="240" alt="Historial"> 
 
-Capturas reales de la versión 0.5.0 facilitadas por el usuario. Los nuevos controles de 0.6.3 aún no aparecen en estas capturas. El catálogo mostrado puede cambiar.
+Capturas reales de la versión 0.5.0 facilitadas por el usuario. Las mejoras de 0.8.10 aún no aparecen en estas capturas. El catálogo mostrado puede cambiar.
 
 ## Descargar
 
-[**Descargar Anira 0.6.3 para Android**](downloads/Anira-0.6.3.apk?raw=true)
+[**Descargar Anira 0.8.10 para Android**](downloads/Anira-0.8.10.apk?raw=true)
 
 Android 8.0 o posterior, Android System WebView activo e Internet. Compatible por diseño con celulares, tabletas y Android TV con WebView; reproducción y controles dependen del dispositivo.
 
-**Versión estable.** La actualización 0.6.3 tiene compilación, firma y pruebas de lógica verificadas. El giro y la distribución visual de los nuevos controles necesitan comprobación en dispositivo físico. El catálogo, las portadas y los enlaces de reproducción dependen de servicios externos y pueden cambiar o dejar de estar disponibles.
+**Versión estable.** La actualización 0.8.10 tiene compilación, firma y pruebas de lógica verificadas. El giro y la distribución visual de los nuevos controles necesitan comprobación en dispositivo físico. El catálogo, las portadas y los enlaces de reproducción dependen de servicios externos y pueden cambiar o dejar de estar disponibles.
+
+## Novedades de 0.8.10
+
+Consulta las [notas de cambios](RELEASE-NOTES.md). Incluye catálogo unificado, prioridad AnimeAV1, temporadas automáticas, recuperación del progreso, portadas completas y siguiente episodio interno en horizontal. Las vistas conceptuales de Netflix todavía no están implementadas.
 
 ## Qué incluye
 
@@ -63,13 +67,13 @@ Las imágenes superiores son capturas reales de la interfaz de Anira.
 3. Si ya tienes Anira, instala encima de la versión anterior para conservar los datos. No es necesario desinstalarla.
 4. Si deseas, exporta antes un respaldo en Ajustes.
 
-Nombre del paquete: `app.anira.anime`. Versión: `0.6.3`, código `17`.
+Nombre del paquete: `app.anira.anime`. Versión: `0.8.10`, código `30`.
 
 La APK conserva el certificado de firma de las versiones anteriores. Su SHA-256 de archivo está en [downloads/SHA256SUMS](downloads/SHA256SUMS).
 
 ## Privacidad y permisos
 
-Anira no necesita una cuenta propia. Listas, historial, progreso y ajustes se guardan en el dispositivo, salvo cuando el usuario exporta un respaldo. La app consulta fuentes externas para catálogo, imágenes, horarios y reproducción. El avance OP/ED es manual y no consulta tiempos de AniSkip; las actualizaciones se consultan en GitHub. Estos servicios reciben las solicitudes de red; esas consultas están sujetas a las políticas de esos servicios.
+Anira no necesita una cuenta propia. Listas, historial, progreso y ajustes se guardan en el dispositivo, salvo cuando el usuario exporta un respaldo. La app consulta fuentes externas para catálogo, imágenes, horarios y reproducción. El avance OP/ED manual está disponible; cuando existen intervalos verificados se pueden consultar tiempos de AniSkip; las actualizaciones se consultan en GitHub. Estos servicios reciben las solicitudes de red; esas consultas están sujetas a las políticas de esos servicios.
 
 Usa Internet y consulta el estado de conexión. El permiso de notificaciones se solicita al activar avisos. El control de volumen actúa sobre el audio multimedia. El selector de documentos del sistema se utiliza para respaldos, sin solicitar acceso general a todos los archivos.
 
