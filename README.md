@@ -20,7 +20,9 @@ Las capturas disponibles corresponden a una versión anterior y no representan t
 
 ## Descargar
 
-[**Descargar Anira 0.13.4 para Android**](downloads/Anira-0.13.4.apk?raw=true)
+[**Descargar Anira 0.13.4 para Android**](https://github.com/Salvador9797/Anira/releases/download/v0.13.4/Anira-0.13.4.apk)
+
+También puedes abrir la [página de versiones de Anira](https://github.com/Salvador9797/Anira/releases) y descargar el archivo `Anira-0.13.4.apk` desde **Assets**.
 
 - Android 8.0 o posterior.
 - Paquete: `app.anira.anime`.
