@@ -1,90 +1,82 @@
 <p align="center"><img src="assets/icon.png" width="100" alt="Icono de Anira"></p>
 <h1 align="center">Anira</h1>
-<p align="center">Tu próxima historia. · Android · Versión 0.8.10</p>
-
+<p align="center">Tu próxima historia. · Android · Versión 0.13.4</p>
 
 ## Acerca de Anira
 
 **Anira — Tu próxima historia**
 
-Descubre anime y organiza tus series favoritas en una interfaz oscura, moderna y fácil de usar. Explora títulos por género, año y estado, consulta nuevos capítulos y retoma tus episodios desde donde los dejaste.
+Descubre anime y manhwa en una aplicación Android con catálogo, recomendaciones, biblioteca personal y lectura vertical. Anira conserva el progreso por perfil y permite retomar episodios y capítulos donde los dejaste.
 
-Disfruta de un reproductor con controles de velocidad, calidad, avance y pantalla completa. Guarda tus series como pendientes, viendo o completadas, y conserva tu biblioteca mediante respaldos.
+El catálogo y la reproducción de anime utilizan fuentes externas. El lector de manhwa consulta índices y páginas públicas disponibles; la presencia de títulos, capítulos e imágenes depende de esas fuentes.
 
-Anira también incluye avisos opcionales de nuevos capítulos y un modo de ahorro de datos que puedes activar o desactivar en Ajustes.
-
-Disponible para Android. El catálogo, los idiomas y la reproducción dependen de la disponibilidad de las fuentes externas.
-
-**Etiquetas:** `anime` · `android` · `apk` · `anime-app` · `video-player` · `anime-catalog` · `watchlist` · `spanish` · `android-tv` · `tablet`
+**Etiquetas:** `anime` · `manhwa` · `android` · `apk` · `anime-app` · `manga-reader` · `video-player` · `spanish` · `android-tv`
 
 ## Capturas reales de Anira
 
-<img src="assets/screenshots/inicio.jpg" width="240" alt="Inicio"> <img src="assets/screenshots/novedades.jpg" width="240" alt="Nuevos capítulos"> <img src="assets/screenshots/explorar.jpg" width="240" alt="Explorar"> <img src="assets/screenshots/mi-lista.jpg" width="240" alt="Mi lista"> <img src="assets/screenshots/historial.jpg" width="240" alt="Historial"> 
+<img src="assets/screenshots/inicio.jpg" width="240" alt="Inicio"> <img src="assets/screenshots/novedades.jpg" width="240" alt="Nuevos capítulos"> <img src="assets/screenshots/explorar.jpg" width="240" alt="Explorar"> <img src="assets/screenshots/mi-lista.jpg" width="240" alt="Mi lista"> <img src="assets/screenshots/historial.jpg" width="240" alt="Historial">
 
-Capturas reales de la versión 0.5.0 facilitadas por el usuario. Las mejoras de 0.8.10 aún no aparecen en estas capturas. El catálogo mostrado puede cambiar.
+Las capturas disponibles corresponden a una versión anterior y no representan todas las pantallas incorporadas después. El catálogo mostrado puede cambiar.
 
 ## Descargar
 
-[**Descargar Anira 0.8.10 para Android**](downloads/Anira-0.8.10.apk?raw=true)
+[**Descargar Anira 0.13.4 para Android**](downloads/Anira-0.13.4.apk?raw=true)
 
-Android 8.0 o posterior, Android System WebView activo e Internet. Compatible por diseño con celulares, tabletas y Android TV con WebView; reproducción y controles dependen del dispositivo.
+- Android 8.0 o posterior.
+- Paquete: `app.anira.anime`.
+- Versión: `0.13.4` · código `46`.
+- Instala encima de la versión anterior para conservar tus datos; no desinstales Anira para actualizar.
+- SHA-256: consulta `downloads/SHA256SUMS`.
 
-**Versión estable.** La actualización 0.8.10 tiene compilación, firma y pruebas de lógica verificadas. El giro y la distribución visual de los nuevos controles necesitan comprobación en dispositivo físico. El catálogo, las portadas y los enlaces de reproducción dependen de servicios externos y pueden cambiar o dejar de estar disponibles.
+## Novedades de 0.13.4
 
-## Novedades de 0.8.10
-
-Consulta las [notas de cambios](RELEASE-NOTES.md). Incluye catálogo unificado, prioridad AnimeAV1, temporadas automáticas, recuperación del progreso, portadas completas y siguiente episodio interno en horizontal. Las vistas conceptuales de Netflix todavía no están implementadas.
+Consulta las [notas de cambios desde 0.8.10](RELEASE-NOTES.md). Esta versión incorpora la corrección del marcador de capítulos leídos, además de las mejoras de biblioteca y lector de manhwa de las versiones 0.13.0–0.13.3.
 
 ## Qué incluye
 
-- Catálogo, búsqueda y filtros por género, año, estado y tipo.
-- Novedades agrupadas por las fechas que publique la fuente.
-- Carrusel principal que cambia cada 6 segundos y permite deslizar manualmente.
-- Favoritos, series en seguimiento y progreso guardado en el dispositivo.
-- Reproductor con controles blancos sin recuadros, título superior y progreso azul, siguiendo la vista previa aprobada.
-- Al ampliar solicita horizontal y pantalla completa; al salir restaura la orientación anterior. Imagen completa sin recorte por defecto.
-- Calidad y subtítulos accesibles tocando la información superior de servidor e idioma.
-- Saltos de diez segundos, anterior/siguiente, velocidad, calidad y bloqueo de controles.
-- Botón OP/ED disponible siempre que se muestran los controles. Cada toque avanza 85 segundos desde la posición actual, sin números en el botón ni diálogos. Es un avance manual y se limita al final del video.
-- Cambio SUB/DUB automático al seleccionar el idioma durante una reproducción, conservando posición, pausa y pantalla completa. También accesible desde las preferencias del reproductor.
-- Reproductor flotante PiP mediante botón, sujeto a soporte y permiso de Android.
-- Hasta seis perfiles locales, con listas, progreso y preferencias separados.
-- Horarios de emisión de las series seguidas, convertidos a República Dominicana; no garantizan cuándo publicará el proveedor.
-- Consulta de actualizaciones y descarga oficial, texto grande, reducción de animaciones y diagnóstico técnico.
-- Subtítulos externos con tamaño, color, fondo y desfase.
-- Ahorro de datos opcional, desactivado inicialmente, desde Ajustes.
-- Exportación e importación de listas y progreso.
-- Avisos de capítulos nuevos opcionales; Android puede retrasarlos y la fuente puede omitir publicaciones.
+### Anime
+- Catálogo unificado, búsqueda, filtros y recomendaciones.
+- Carrusel principal y secciones de novedades.
+- Selección automática de proveedores, con prioridad de AnimeAV1 y TioAnime como respaldo.
+- Reproductor con pantalla completa, orientación horizontal, velocidad, calidad, subtítulos y PiP cuando el dispositivo lo admite.
+- Continuidad de episodios y progreso separado por perfil.
+- Horarios de emisión, avisos opcionales y modo de ahorro de datos.
 
+### Manhwa
+- Sección Leer con descubrimiento, búsqueda sobre los títulos cargados y fichas de series.
+- Secciones de manwhas recientes, capítulos recientes y recomendaciones cuando la fuente ofrece esos datos.
+- Lector vertical con progreso por capítulo y posición de lectura.
+- Carrusel «Seguir leyendo».
+- Marca de capítulo leído al llegar a la última página visible.
+- Navegación al capítulo anterior y al siguiente.
+- Biblioteca independiente para anime y manhwa; guardar un título no elimina su progreso al quitarlo de guardados.
+- Lecturas y preferencias incluidas en los respaldos compatibles.
 
-
-Las imágenes superiores son capturas reales de la interfaz de Anira.
+### Perfiles y datos
+- Perfiles locales con listas, progreso y preferencias separados.
+- Avatares y personalización.
+- Exportación e importación de respaldos; protección opcional con contraseña.
+- Datos locales sin exigir una cuenta de Anira ni un servidor propio.
 
 ## Instalar o actualizar
 
-1. Descarga la APK desde el enlace de este repositorio.
-2. Abre el archivo en tu Android. Si el sistema lo pide, permite temporalmente instalar aplicaciones desde el navegador o gestor usado.
-3. Si ya tienes Anira, instala encima de la versión anterior para conservar los datos. No es necesario desinstalarla.
-4. Si deseas, exporta antes un respaldo en Ajustes.
+1. Descarga la APK desde el enlace de esta página.
+2. Abre el archivo en Android y permite la instalación desde el origen elegido si el sistema lo solicita.
+3. Si ya tienes Anira, instala encima de la versión anterior. No la desinstales: así conservas tus datos locales.
+4. Se recomienda exportar un respaldo desde Ajustes antes de una actualización importante.
 
-Nombre del paquete: `app.anira.anime`. Versión: `0.8.10`, código `30`.
-
-La APK conserva el certificado de firma de las versiones anteriores. Su SHA-256 de archivo está en [downloads/SHA256SUMS](downloads/SHA256SUMS).
+La APK conserva el paquete y el certificado de firma de la aplicación. Si Android indica que la firma no coincide, no fuerces la instalación ni desinstales la versión anterior; informa del mensaje.
 
 ## Privacidad y permisos
 
-Anira no necesita una cuenta propia. Listas, historial, progreso y ajustes se guardan en el dispositivo, salvo cuando el usuario exporta un respaldo. La app consulta fuentes externas para catálogo, imágenes, horarios y reproducción. El avance OP/ED manual está disponible; cuando existen intervalos verificados se pueden consultar tiempos de AniSkip; las actualizaciones se consultan en GitHub. Estos servicios reciben las solicitudes de red; esas consultas están sujetas a las políticas de esos servicios.
+Anira no necesita una cuenta propia. Listas, historial, progreso y ajustes se guardan localmente, salvo cuando el usuario exporta un respaldo. La aplicación consulta servicios externos para catálogo, imágenes, horarios y reproducción; esas fuentes reciben las solicitudes correspondientes y pueden cambiar o dejar de estar disponibles.
 
-Usa Internet y consulta el estado de conexión. El permiso de notificaciones se solicita al activar avisos. El control de volumen actúa sobre el audio multimedia. El selector de documentos del sistema se utiliza para respaldos, sin solicitar acceso general a todos los archivos.
+No aloja archivos de video ni garantiza que todos los títulos, capítulos, pistas, idiomas o resoluciones estén disponibles.
 
 ## Código y contenido
 
-Este repositorio distribuye la APK y el material de presentación. El código fuente se mantiene en un repositorio privado. No contiene claves de firma ni contraseñas.
-
-Anira no aloja archivos de video. La disponibilidad y calidad dependen de las fuentes externas. No se garantiza la reproducción de todos los títulos, pistas, idiomas o resoluciones.
-
-Para informar un problema, indica versión de Android, modelo, versión de Anira, episodio y pasos para reproducirlo. No publiques contraseñas, tokens ni datos personales.
+Este repositorio distribuye la APK oficial, notas de cambios y material de presentación. El código fuente se mantiene en un repositorio privado. No publiques contraseñas, tokens, claves de firma ni datos personales.
 
 ## Licencia
 
-**Software propietario · Todos los derechos reservados.** Se permite el uso personal gratuito y compartir la APK oficial sin modificar, con sus avisos. El código fuente se mantiene privado. Consulta la [licencia completa](LICENSE) y los [avisos de terceros](THIRD_PARTY_NOTICES.md). Se respetan los permisos válidamente concedidos sobre copias anteriores.
+**Software propietario · Todos los derechos reservados.** Se permite el uso personal gratuito y compartir la APK oficial sin modificar, con sus avisos. Consulta la [licencia completa](LICENSE) y los [avisos de terceros](THIRD_PARTY_NOTICES.md). Se respetan los permisos válidamente concedidos sobre copias anteriores.
