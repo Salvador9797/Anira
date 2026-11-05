@@ -1,20 +1,85 @@
-# Anira 0.8.10
+# Anira 0.13.4
 
-Esta actualización reúne las mejoras de catálogo y reproducción posteriores a 0.6.3.
+Esta entrega reúne las mejoras publicadas desde 0.8.10 y añade la corrección del seguimiento de lectura de manhwa.
+
+## 0.13.4 — Corrección de capítulos leídos
+
+- Corrige el momento en que se registra un capítulo como leído: ahora se marca cuando la última página cargada entra en la zona visible de lectura.
+- Comprueba que la marca se haya guardado antes de evitar nuevos intentos.
+- Añade una prueba de regresión para verificar el registro y la recuperación del estado.
+- No modifica el reproductor de anime.
+
+## 0.13.3 — Progreso y navegación del lector
+
+- «Seguir leyendo» se presenta en un carrusel horizontal.
+- Cada capítulo conserva su estado de leído por manhwa y perfil.
+- La marca de lectura se registra al alcanzar la última página.
+- El lector permite ir al capítulo anterior y al siguiente, respetando los límites de la serie.
+- El progreso y las marcas se incluyen en la biblioteca y en los respaldos compatibles.
+
+## 0.13.2 — Biblioteca de anime y manhwa
+
+- Biblioteca incorpora un selector independiente Anime/Manhwa.
+- Distingue títulos guardados de lecturas recientes.
+- La búsqueda de Biblioteca filtra los registros locales sin cargar el catálogo remoto.
+- La navegación desde una ficha o el lector conserva el origen y regresa a Biblioteca.
+- La preferencia de tipo de biblioteca se guarda por perfil y se incluye en los respaldos.
+- Quitar un manhwa de guardados no elimina su progreso de lectura.
+
+## 0.13.1 — Catálogo y lector de manhwa
+
+- Índice de manhwa ampliado con opción para mostrar más resultados.
+- Búsqueda por palabras y sin distinguir tildes sobre los títulos cargados.
+- Secciones de Continuar leyendo, capítulos recientes, manhwa recientes, recomendaciones y populares cuando la fuente aporta esos datos.
+- Fichas con títulos y portadas canónicos.
+- Capítulos y páginas consultados desde las respuestas públicas de la fuente, incluidos números decimales.
+- Se descartan rutas de relleno y se informa de bloqueos del CDN sin marcar falsamente una lectura como completada.
+
+## 0.13.0 — Primera versión del lector
+
+- Nueva sección Leer, con navegación entre descubrimiento, ficha y capítulos.
+- Lector vertical con restauración de página y posición.
+- Progreso por perfil y controles de lectura ocultables.
+- Biblioteca de lecturas y respaldo de datos.
+- La integración con Olympus consulta únicamente páginas públicas; no evade CAPTCHA ni restricciones de acceso.
+
+## 0.12.2 — Navegación, perfiles, reproducción y respaldos
+
+- Barra inferior y cabecera reorganizadas, con mejor respuesta táctil y navegación de regreso.
+- Ajustes reorganizados y conservación de búsqueda y desplazamiento entre pestañas ya cargadas.
+- Mejoras en tarjetas, portadas, miniaturas, accesibilidad, foco y reducción de movimiento.
+- Nueve avatares y selección de foto, con encuadre y almacenamiento privado.
+- Cuatro colores de acento por perfil y acceso al grupo de Telegram.
+- Correcciones de posición de reproducción, transición al siguiente episodio y modo imagen en imagen.
+- Mejor almacenamiento y conciliación del progreso por perfil.
+- Caché del catálogo, menos solicitudes duplicadas y cancelación de consultas innecesarias.
+- Estados de carga, error, vacío y reintento más claros.
+- Exportación e importación de todos los perfiles, con nombres, avatares, fotos, listas, progreso, preferencias y subtítulos.
+- Protección opcional de respaldos mediante contraseña.
+- Validaciones adicionales de conexiones, redirecciones, respuestas externas y operaciones entre perfiles.
+
+## 0.8.10 — Catálogo y reproducción
 
 - Catálogo unificado de AnimeAV1 y TioAnime, con deduplicación y prioridad de AnimeAV1.
-- Selección automática de proveedores, un intento activo a la vez y recuerdo del servidor por anime e idioma.
+- Selección automática de proveedores y recuerdo del servidor por anime e idioma.
 - Reproducción de enlaces HLS sin extensión y respaldo automático conservando el progreso.
 - Carruseles de animes recientes, recomendaciones y títulos con doblaje confirmado.
-- Temporadas y continuidad consultadas automáticamente, con historias paralelas y versiones alternativas separadas.
-- Consulta de enlaces del siguiente episodio cerca del final, sin descargar el video y respetando el ahorro de datos.
-- Resolución real cuando el reproductor la informa, acciones Quitar y Marcar visto, y diagnóstico local por etapas.
-- Correcciones para conservar la posición al regresar de segundo plano y evitar controles superpuestos o desactualizados.
+- Consulta automática de temporadas y continuidad.
+- Consulta del siguiente episodio cerca del final, sin descargar el video.
+- Correcciones para conservar la posición al volver de segundo plano y evitar controles superpuestos.
 - Portadas verticales completas sin recortar personajes.
-- Siguiente dentro del reproductor inicia el próximo episodio automáticamente en horizontal y a pantalla completa.
+- El siguiente episodio se inicia en horizontal y a pantalla completa.
 
-Mismo paquete y certificado de firma. Versión 0.8.10, código 30. Instala encima de la anterior para conservar tus datos.
+## Identificación y compatibilidad
 
-Verificación: compilación Android, firma v2/v3, pruebas de lógica e interfaz empaquetada, prioridad de fuentes, cambio de idioma, progreso y transición al siguiente episodio. La reproducción de 0.8.7 fue confirmada por el usuario; el giro y las correcciones posteriores de segundo plano aún requieren confirmación física en Android. La disponibilidad y rapidez dependen también de las fuentes externas.
+- Nombre: Anira.
+- Paquete Android: `app.anira.anime`.
+- Versión: `0.13.4`.
+- Código: `46`.
+- Android mínimo: 8.0 (API 26).
 
-Las vistas conceptuales de Netflix no están implementadas en esta APK.
+Instala la actualización encima de la versión anterior para conservar los datos locales. No desinstales Anira antes de actualizar.
+
+## Verificación y límites
+
+La validación automatizada cubre pruebas de lógica, frontend, código nativo y empaquetado Android. La APK distribuida debe corresponder a esta versión y conservar el certificado de firma anterior. El funcionamiento visual y la disponibilidad de catálogo, imágenes, capítulos, idiomas y reproducción también dependen de las fuentes externas y del dispositivo; no se garantiza disponibilidad universal.
