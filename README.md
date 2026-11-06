@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="100" alt="Icono de Anira"></p>
 <h1 align="center">Anira</h1>
-<p align="center">Tu próxima historia. · Android · Versión 0.13.4</p>
+<p align="center">Tu próxima historia. · Android · Versión 0.13.12</p>
 
 ## Acerca de Anira
 
@@ -20,19 +20,19 @@ Las capturas disponibles corresponden a una versión anterior y no representan t
 
 ## Descargar
 
-[**Descargar Anira 0.13.4 para Android**](https://github.com/Salvador9797/Anira/releases/download/v0.13.4/Anira-0.13.4.apk)
+[**Descargar Anira 0.13.12 para Android**](https://github.com/Salvador9797/Anira/releases/download/v0.13.12/Anira-0.13.12.apk)
 
-También puedes abrir la [página de versiones de Anira](https://github.com/Salvador9797/Anira/releases) y descargar el archivo `Anira-0.13.4.apk` desde **Assets**.
+También puedes abrir la [página de versiones de Anira](https://github.com/Salvador9797/Anira/releases) y descargar el archivo `Anira-0.13.12.apk` desde **Assets**.
 
 - Android 8.0 o posterior.
 - Paquete: `app.anira.anime`.
-- Versión: `0.13.4` · código `46`.
+- Versión: `0.13.12` · código `54`.
 - Instala encima de la versión anterior para conservar tus datos; no desinstales Anira para actualizar.
 - SHA-256: consulta `downloads/SHA256SUMS`.
 
-## Novedades de 0.13.4
+## Novedades de 0.13.12
 
-Consulta las [notas de cambios desde 0.8.10](RELEASE-NOTES.md). Esta versión incorpora la corrección del marcador de capítulos leídos, además de las mejoras de biblioteca y lector de manhwa de las versiones 0.13.0–0.13.3.
+Consulta las [notas de cambios desde 0.8.10](RELEASE-NOTES.md). Esta versión incorpora el aviso integrado de actualizaciones. Consulta las notas de cambios desde 0.8.10 para ver el historial completo.
 
 ## Qué incluye
 
