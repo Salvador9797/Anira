@@ -85,7 +85,7 @@ Esta entrega reúne las mejoras publicadas desde 0.8.10 y añade la corrección 
 - Nombre: Anira.
 - Paquete Android: `app.anira.anime`.
 - Versión: `0.13.12`.
-- Código: `46`.
+- Código: `54`.
 - Android mínimo: 8.0 (API 26).
 
 Instala la actualización encima de la versión anterior para conservar los datos locales. No desinstales Anira antes de actualizar.
