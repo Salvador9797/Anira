@@ -1,4 +1,14 @@
-# Anira 0.13.4
+# Anira 0.13.12
+
+## 0.13.12 — Actualizaciones dentro de Anira
+
+- Añade una tarjeta integrada para avisar cuando exista una nueva versión estable publicada en el repositorio oficial.
+- Comprueba la disponibilidad de nuevas versiones al iniciar y reanudar la aplicación, con intervalo de comprobación de seis horas.
+- La tarjeta permite abrir la descarga oficial o posponer el aviso sin bloquear la navegación.
+- Evita mostrar el aviso encima del reproductor, el lector inmersivo y el editor de avatar.
+- Valida que la descarga proceda de las publicaciones oficiales de Salvador9797/Anira.
+- Actualiza la versión Android a 0.13.12 (versionCode 54).
+- Conserva el paquete y el certificado de firma para permitir la actualización sobre instalaciones existentes.
 
 Esta entrega reúne las mejoras publicadas desde 0.8.10 y añade la corrección del seguimiento de lectura de manhwa.
 
@@ -74,7 +84,7 @@ Esta entrega reúne las mejoras publicadas desde 0.8.10 y añade la corrección 
 
 - Nombre: Anira.
 - Paquete Android: `app.anira.anime`.
-- Versión: `0.13.4`.
+- Versión: `0.13.12`.
 - Código: `46`.
 - Android mínimo: 8.0 (API 26).
 
