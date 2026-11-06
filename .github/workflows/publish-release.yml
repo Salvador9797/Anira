@@ -6,6 +6,8 @@ on:
     paths:
       - 'downloads/*.apk'
       - 'downloads/SHA256SUMS'
+      - 'README.md'
+      - 'RELEASE-NOTES.md'
   workflow_dispatch:
 
 permissions:
