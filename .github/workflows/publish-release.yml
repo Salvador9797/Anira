@@ -6,6 +6,7 @@ on:
     paths:
       - 'downloads/*.apk'
       - 'downloads/SHA256SUMS'
+      - 'version.json'
       - 'README.md'
       - 'RELEASE-NOTES.md'
   workflow_dispatch:
@@ -27,13 +28,16 @@ jobs:
           git fetch --depth=1 origin "$COMMIT"
           git checkout --detach FETCH_HEAD
 
-      - name: Read release metadata and verify APK
+      - name: Read metadata and verify APK
         id: release
         run: |
           VERSION="$(jq -r '.version' version.json)"
-          APK="$(jq -r '.apk' version.json)"
+          APK="downloads/Anira-$VERSION.apk"
+          EXPECTED="$(jq -r '.sha256' version.json)"
+          ACTUAL="$(sha256sum "$APK" | cut -d' ' -f1)"
           test -n "$VERSION"
           test -f "$APK"
+          test "$EXPECTED" = "$ACTUAL"
           (cd downloads && sha256sum --check SHA256SUMS)
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           echo "apk=$APK" >> "$GITHUB_OUTPUT"
