@@ -1,10 +1,10 @@
 {
   "name": "Anira",
-  "version": "0.13.13",
-  "versionCode": 55,
+  "version": "0.13.30",
+  "versionCode": 72,
   "package": "app.anira.anime",
   "minAndroid": "8.0",
   "channel": "stable",
-  "apk": "https://github.com/Salvador9797/Anira/releases/download/v0.13.13/Anira-0.13.13.apk",
-  "sha256": "e2a5c368528700ec60811a98cfd77c8ce9c332b5aa0a39609b85d2ea0590eacc"
+  "apk": "https://github.com/Salvador9797/Anira/releases/download/v0.13.30/Anira-0.13.30.apk",
+  "sha256": "787f1a632d2fedd62248b6e1a1c761a4583c0bc92a747b12cd67a5905624bf83"
 }
