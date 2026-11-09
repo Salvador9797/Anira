@@ -1,3 +1,16 @@
+# Anira 0.13.30
+
+## 0.13.30 — Reproducción más robusta y Android TV
+
+- Mejora la recuperación del reproductor cuando una fuente tarda en preparar el video o no llega a emitir los primeros fotogramas.
+- Evita interrumpir una fuente que ya está preparada mientras se comprueba una alternativa.
+- Amplía el margen de preparación y añade vigilancia para detectar reproducciones preparadas que no llegan a mostrar imagen.
+- Incluye ajustes de navegación y compatibilidad de interfaz para Android TV.
+- Conserva el paquete Android y el certificado de firma para actualizar instalaciones existentes.
+- Versión Android: 0.13.30 (versionCode 72).
+
+## Historial anterior
+
 # Anira 0.13.12
 
 ## 0.13.12 — Actualizaciones dentro de Anira
@@ -93,3 +106,4 @@ Instala la actualización encima de la versión anterior para conservar los dato
 ## Verificación y límites
 
 La validación automatizada cubre pruebas de lógica, frontend, código nativo y empaquetado Android. La APK distribuida debe corresponder a esta versión y conservar el certificado de firma anterior. El funcionamiento visual y la disponibilidad de catálogo, imágenes, capítulos, idiomas y reproducción también dependen de las fuentes externas y del dispositivo; no se garantiza disponibilidad universal.
+
