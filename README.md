@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="100" alt="Icono de Anira"></p>
 <h1 align="center">Anira</h1>
-<p align="center">Tu próxima historia. · Android · Versión 0.13.13</p>
+<p align="center">Tu próxima historia. · Android · Versión 0.13.30</p>
 
 ## Acerca de Anira
 
@@ -20,19 +20,20 @@ Las capturas disponibles corresponden a una versión anterior y no representan t
 
 ## Descargar
 
-[**Descargar Anira 0.13.13 para Android**](https://github.com/Salvador9797/Anira/releases/download/v0.13.13/Anira-0.13.13.apk)
+[**Descargar Anira 0.13.30 para Android**](https://github.com/Salvador9797/Anira/releases/download/v0.13.30/Anira-0.13.30.apk)
 
-También puedes abrir la [página de versiones de Anira](https://github.com/Salvador9797/Anira/releases) y descargar el archivo `Anira-0.13.13.apk` desde **Assets**.
+También puedes abrir la [página de versiones de Anira](https://github.com/Salvador9797/Anira/releases) y descargar el archivo `Anira-0.13.30.apk` desde **Assets**.
 
 - Android 8.0 o posterior.
 - Paquete: `app.anira.anime`.
-- Versión: `0.13.13` · código `55`.
+- Versión: `0.13.30` · código `72`.
+- Incluye mejoras de navegación y compatibilidad con Android TV.
 - Instala encima de la versión anterior para conservar tus datos; no desinstales Anira para actualizar.
-- SHA-256: consulta `downloads/SHA256SUMS`.
+- SHA-256: `787f1a632d2fedd62248b6e1a1c761a4583c0bc92a747b12cd67a5905624bf83`.
 
-## Novedades de 0.13.13
+## Novedades de 0.13.30
 
-Consulta las [notas de cambios desde 0.8.10](RELEASE-NOTES.md). Esta versión incorpora el aviso integrado de actualizaciones. Consulta las notas de cambios desde 0.8.10 para ver el historial completo.
+Consulta las [notas de cambios desde 0.8.10](RELEASE-NOTES.md). Esta versión mejora la recuperación de reproducción y la experiencia de navegación en Android TV.
 
 ## Qué incluye
 
